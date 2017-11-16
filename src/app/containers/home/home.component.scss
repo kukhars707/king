@@ -1,0 +1,27 @@
+.home{
+  &__top-news{
+    height: 100%;
+    border-bottom: 1px solid red;
+    &__image{
+      img{
+        max-width: 100%;
+      }
+      &:hover ~ .home__top-news__body a{
+        text-decoration: underline;
+      }
+    }
+    &__body{
+      a{
+        color: #111;
+      }
+    }
+  }
+  &__top-category{
+    border-bottom: 1px solid red;
+    &__image{
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+}
